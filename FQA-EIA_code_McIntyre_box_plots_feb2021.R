@@ -8,7 +8,7 @@ library(car)
 library(here)
 
 #select data by macrogroup
-#modified
+#modified2
 
 FQA_EIA_1_2018<-read.csv(here("data", "FQA_EIA_1_2018.csv"))
 FQA.data <- FQA_EIA_1_2018
@@ -16,7 +16,7 @@ FQA.data <- FQA_EIA_1_2018
 
 
 ### Box PLOTS all types cwmean c
-
+#test2
 
 #clean data, get rid of blanks,ensure EIA_RANK is coded as factor 
 FQA.data_rank<-subset(FQA.data,EIA_RANK_NOSIZE!="")
